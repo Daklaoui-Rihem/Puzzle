@@ -1,0 +1,28 @@
+name: photo_puzzle
+description: A romantic photo sliding puzzle game
+publish_to: 'none'
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.0.0 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  image_picker: ^1.0.7
+  confetti: ^0.7.0
+  audioplayers: ^5.2.1
+  image: ^4.1.7
+  path_provider: ^2.1.2
+  permission_handler: ^11.3.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^3.0.0
+
+flutter:
+  uses-material-design: true
+  assets:
+    - assets/images/
+    - assets/audio/
